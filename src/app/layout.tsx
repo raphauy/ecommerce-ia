@@ -14,11 +14,23 @@ import { Analytics } from "@vercel/analytics/react"
 import { SpeedInsights } from "@vercel/speed-insights/next"
 
 export const metadata: Metadata = {
-  title: "OsomGPT",
-  description: "Osom Digital AI",
-  icons: {
-    icon: "/favicon.ico",
-  },  
+  title: "EcommerceIA",
+  description: "Potenciá tu negocio con chatbots con IA",
+  openGraph: {
+    title: "ShockIA",
+    description: "Potenciá tu negocio con chatbots con IA",
+    type: "website",
+    url: "https://shock.uy",
+    images: [
+      {
+        url: "https://ia.shock.uy/logo.png",
+        width: 611,
+        height: 134,
+        alt: "ShockIA",
+      },
+    ],
+},
+  metadataBase: new URL("https://shock.uy"),
 }
 
 export const viewport: Viewport = {

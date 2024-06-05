@@ -23,7 +23,7 @@ export default async function SlugLayout({ children, params }: Props) {
   }
 
   if (currentUser.role !== 'admin' && currentUser.role !== 'cliente' && currentUser.role !== 'osom')
-    return redirect("/unauthorized?message=No estas autorizado a acceder a esta página, contacta con los administradores de OsomGPT")
+    return redirect("/unauthorized?message=No estas autorizado a acceder a esta página, contacta con los administradores de ShockIA")
 
   let client= null
   if (currentUser.role === "admin" || currentUser.role === "osom") {

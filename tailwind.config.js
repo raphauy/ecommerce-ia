@@ -17,9 +17,9 @@ module.exports = {
     },
     extend: {
       colors: {
-        "osom-color": "rgb(73,195,158)",
-        "rosa-osom": "rgb(244,14,101)",
-        "verde-openai": "rgb(73,195,158)",
+        "osom-color": "rgb(73, 73, 233)",
+        "azul-shock": "rgb(73, 73, 233)",
+        "verde-shock": "rgb(220, 243, 67)",
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",
